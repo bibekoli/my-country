@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background: #aaa;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #ddd;
+  padding: 10px;
+  width: calc(100% - 20px);
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header span:first-child {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+img {
+  width: calc(100% - 10px);
+  margin: 5px;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  text-align: left;
+}
+.main, .sidebar {
+  border-radius: 8px;
+  margin: 5px;
+  display: block;
+  width: calc(100% - 30px);
+  padding: 10px;
+}
+
+.main {
+  background: #eee;
+}
+
+.sidebar {
+  background: #eee;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+
+table td, table th {
+  border: 2px solid;
+}
+
+p {
+  text-align: left;
+}
+
+a.active {
+  background: yellow;
+  padding: 10px;
+  color: black;
+  border-radius: 8888px;
+}
+#links a {
+  display: block;
+  margin: 10px;
+}
+.card {
+  background: #ccc;
+  color: #111;
+  margin: 15px 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+#links a {
+  display: inline-block;
+  margin: 0 10px;
+}
+  .main, .sidebar {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .main {
+    width: 58%;
+    margin-right: 0;
+  }
+
+  .sidebar {
+    width: 35%;
+    vertical-align: top;
+  }
+  
+}
